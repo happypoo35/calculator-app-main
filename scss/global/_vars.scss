@@ -1,0 +1,48 @@
+//--- Theme 1 ---//
+// Backgrounds
+$t1-main-background: hsl(222, 26%, 31%);
+$t1-toggle-background-keypad-background: hsl(223, 31%, 20%);
+$t1-screen-background: hsl(224, 36%, 15%);
+// Keys
+$t1-key-background: hsl(225, 21%, 49%);
+$t1-key-shadow: hsl(224, 28%, 35%);
+$t1-Red-key-background-toggle: hsl(6, 63%, 50%);
+$t1-Dark-red-key-shadow: hsl(6, 70%, 34%);
+$t1-Light-grayish-orange-key-background: hsl(30, 25%, 89%);
+$t1-Grayish-orange-key-shadow: hsl(28, 16%, 65%);
+// Text
+$t1-Very-dark-grayish-blue: hsl(221, 14%, 31%);
+
+//--- Theme 2 ---//
+// Backgrounds
+$t2-Light-gray-main-background: hsl(0, 0%, 90%);
+$t2-Grayish-red-toggle-background-keypad-background: hsl(0, 5%, 81%);
+$t2-Very-light-gray-screen-background: hsl(0, 0%, 93%);
+// Keys
+$t2-Dark-moderate-cyan-key-background: hsl(185, 42%, 37%);
+$t2-Very-dark-cyan-key-shadow: hsl(185, 58%, 25%);
+$t2-Orange-key-background-toggle: hsl(25, 98%, 40%);
+$t2-Dark-orange-key-shadow: hsl(25, 99%, 27%);
+$t2-Light-grayish-yellow-key-background: hsl(45, 7%, 89%);
+$t2-Dark-grayish-orange-key-shadow: hsl(35, 11%, 61%);
+// Text
+$t2-Very-dark-grayish-yellow: hsl(60, 10%, 19%);
+
+//--- Theme 3 ---//
+// Backgrounds
+$t3-main-background: hsl(268, 75%, 9%);
+$t3-toggle-background-keypad-background-screen-background: hsl(268, 71%, 12%);
+// Keys
+$t3-Dark-violet-key-background: hsl(281, 89%, 26%);
+$t3-Vivid-magenta-key-shadow: hsl(285, 91%, 52%);
+$t3-Pure-cyan-key-background-toggle: hsl(176, 100%, 44%);
+$t3-Soft-cyan-key-shadow: hsl(177, 92%, 70%);
+$t3-Very-dark-violet-key-background: hsl(268, 47%, 21%);
+$t3-Dark-magenta-key-shadow: hsl(290, 70%, 36%);
+// Text
+$t3-Light-yellow: hsl(52, 100%, 62%);
+$t3-Very-dark-blue: hsl(198, 20%, 13%);
+
+$laptop: 1024px;
+$tablet: 768px;
+$mobile: 500px;

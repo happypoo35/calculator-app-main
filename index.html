@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Frontend Mentor | Calculator app</title>
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <main class="pad">
+      <div class="container">
+        <header>
+          <h1>calc</h1>
+          <div class="theme">
+            <h4 class="uppercase">theme</h4>
+            <div class="toggle">
+              <div class="toggle-circle"></div>
+              <div class="toggle-labels">
+                <span class="toggle-labels-number">1</span>
+                <span class="toggle-labels-number">2</span>
+                <span class="toggle-labels-number">3</span>
+              </div>
+            </div>
+          </div>
+        </header>
+        <section class="screen" aria-label="screen">
+          <h2 id="output">399,981</h2>
+        </section>
+        <section class="keypad" aria-label="keypad">
+          <button class="btn btn-num">7</button>
+          <button class="btn btn-num">8</button>
+          <button class="btn btn-num">9</button>
+          <button class="btn btn-del uppercase" id="del">del</button>
+          <button class="btn btn-num">4</button>
+          <button class="btn btn-num">5</button>
+          <button class="btn btn-num">6</button>
+          <button class="btn btn-operation" id="plus">+</button>
+          <button class="btn btn-num">1</button>
+          <button class="btn btn-num">2</button>
+          <button class="btn btn-num">3</button>
+          <button class="btn btn-operation" id="minus">-</button>
+          <button class="btn btn-num" id="dec">.</button>
+          <button class="btn btn-num">0</button>
+          <button class="btn btn-operation" id="div">/</button>
+          <button class="btn btn-operation" id="mult">x</button>
+          <button class="btn btn-reset uppercase" id="reset">reset</button>
+          <button class="btn btn-eq" id="eq">=</button>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+.theme3 {
+  background: $t3-main-background;
+
+  h1,
+  h2,
+  h4,
+  span {
+    color: $t3-Light-yellow;
+  }
+
+  .toggle {
+    background: $t3-toggle-background-keypad-background-screen-background;
+
+    &-circle {
+      left: 3rem;
+      background: $t3-Pure-cyan-key-background-toggle;
+    }
+  }
+
+  .screen {
+    background: $t3-toggle-background-keypad-background-screen-background;
+  }
+
+  .keypad {
+    background: $t3-toggle-background-keypad-background-screen-background;
+  }
+
+  .btn {
+    background: $t3-Very-dark-violet-key-background;
+    border-color: $t3-Dark-magenta-key-shadow;
+    color: $t3-Light-yellow;
+
+    &-del,
+    &-reset {
+      background: $t3-Dark-violet-key-background;
+      border-color: $t3-Vivid-magenta-key-shadow;
+      color: white;
+    }
+
+    &-eq {
+      background: $t3-Pure-cyan-key-background-toggle;
+      border-color: $t3-Soft-cyan-key-shadow;
+      color: $t3-Very-dark-blue;
+    }
+  }
+}

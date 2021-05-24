@@ -1,0 +1,46 @@
+main {
+  background: $t1-main-background;
+
+  h1,
+  h2,
+  h4,
+  span {
+    color: white;
+  }
+
+  .toggle {
+    background: $t1-toggle-background-keypad-background;
+
+    &-circle {
+      left: 0.375rem;
+      background: $t1-Red-key-background-toggle;
+    }
+  }
+
+  .screen {
+    background: $t1-screen-background;
+  }
+
+  .keypad {
+    background: $t1-toggle-background-keypad-background;
+  }
+
+  .btn {
+    background: $t1-Light-grayish-orange-key-background;
+    border-color: $t1-Grayish-orange-key-shadow;
+    color: $t1-Very-dark-grayish-blue;
+
+    &-del,
+    &-reset {
+      background: $t1-key-background;
+      border-color: $t1-key-shadow;
+      color: white;
+    }
+
+    &-eq {
+      background: $t1-Red-key-background-toggle;
+      border-color: $t1-Dark-red-key-shadow;
+      color: white;
+    }
+  }
+}

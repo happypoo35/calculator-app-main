@@ -1,0 +1,49 @@
+button {
+  cursor: pointer;
+  display: block;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: 2rem;
+
+  @include mobile {
+    font-size: 1.75rem;
+  }
+}
+
+.btn {
+  border-radius: 0.5rem;
+  padding: 1rem 1rem 0.75rem;
+  border-bottom: 0.25rem solid;
+  position: relative;
+
+  &:hover {
+    &::after {
+      content: "";
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: calc(100% + 0.25rem);
+      background: rgba(white, 0.5);
+      mix-blend-mode: soft-light;
+      border-radius: 0.5rem;
+    }
+  }
+
+  &-del,
+  &-reset {
+    font-size: 1.25rem;
+
+    @include mobile {
+      font-size: 1rem;
+    }
+  }
+
+  &-reset,
+  &-eq {
+    grid-column: span 2;
+  }
+}
